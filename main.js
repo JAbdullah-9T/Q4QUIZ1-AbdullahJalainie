@@ -7,15 +7,15 @@ function verifyBMI(){
   var roundBMI = Math.round(bmi);
 
   if (bmi < 18.5) {
-  window.alert("Your weight is: " + roundBMI + ". You are UNDERWEIGHT");} 
+  window.alert("Your bmi is: " + roundBMI + ". You are UNDERWEIGHT");} 
   else if (bmi >= 18.5 && bmi <= 24.9) {
-  window.alert("Your weight is: " + roundBMI + ". You are NORMAL");} 
+  window.alert("Your bmi is: " + roundBMI + ". You are NORMAL");} 
   else if (bmi >=25 && bmi <= 29.9) {
-  window.alert("Your weight is: " + roundBMI + ". You are OVERWEIGHT");}
+  window.alert("Your bmi is: " + roundBMI + ". You are OVERWEIGHT");}
   else if (bmi >=30) {
-  window.alert("Your weight is: " + roundBMI + ". You are OBESE");}
+  window.alert("Your bmi is: " + roundBMI + ". You are OBESE");}
   else {
-  window.alert("Your weight is: " + roundBMI + ". You are ULTRA OBESE");}
+  window.alert("Your bmi is: " + roundBMI + ". You are ULTRA OBESE");}
   }
 
 
